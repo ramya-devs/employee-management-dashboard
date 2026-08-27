@@ -1,7 +1,9 @@
 import type { Employee } from "../types/employee";
 
-const API_URL = "http://localhost:3001/employees";
+const API_URL =
+  "https://employee-management-api-lq0g.onrender.com/employees";
 
+// GET ALL EMPLOYEES
 export async function getEmployees(): Promise<Employee[]> {
   const response = await fetch(API_URL);
 
@@ -12,6 +14,7 @@ export async function getEmployees(): Promise<Employee[]> {
   return response.json();
 }
 
+// GET ONE EMPLOYEE
 export async function getEmployeeById(
   id: number
 ): Promise<Employee> {
@@ -24,6 +27,7 @@ export async function getEmployeeById(
   return response.json();
 }
 
+// ADD EMPLOYEE
 export async function addEmployee(
   employee: Omit<Employee, "id">
 ): Promise<Employee> {
@@ -42,6 +46,7 @@ export async function addEmployee(
   return response.json();
 }
 
+// UPDATE EMPLOYEE
 export async function updateEmployee(
   employee: Employee
 ): Promise<Employee> {
@@ -63,6 +68,7 @@ export async function updateEmployee(
   return response.json();
 }
 
+// DELETE EMPLOYEE
 export async function deleteEmployee(
   id: number
 ): Promise<void> {

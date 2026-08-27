@@ -1,32 +1,92 @@
-# React + TypeScript + Vite
+# Employee Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive employee management dashboard built with React, TypeScript, and REST API integration. The application supports complete CRUD operations for managing employee records.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[View Live Demo](https://employee-management-dashboard-572d-okvbh4lic.vercel.app/)
 
-## React Compiler
+## 🔗 Backend API
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+[Employee Management API](https://employee-management-api-lq0g.onrender.com/)
 
-## Expanding the Oxlint configuration
+## 📸 Screenshots
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+### Dashboard
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+![Dashboard](screenshots/dashboard.png)
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+### Employees
+
+![Employees](screenshots/employees.png)
+
+### Employee Details
+
+![Employee Details](screenshots/employee-details.png)
+
+### Add Employee
+
+![Add Employee](screenshots/add-employee.png)
+
+## ✨ Features
+
+- 📊 Employee dashboard with statistics
+- 👥 Employee management
+- 🔍 Search employees by name or email
+- 🏢 Filter employees by department
+- 🟢 Filter employees by status
+- ➕ Add new employees
+- 👁️ View employee details
+- ✏️ Edit employee information
+- 🗑️ Delete employees
+- 🔄 REST API integration
+- 📱 Responsive user interface
+
+## 🛠️ Tech Stack
+
+- React
+- TypeScript
+- Vite
+- React Router
+- REST API
+- JSON Server
+- Lucide React
+- CSS
+
+## 🔄 CRUD Operations
+
+| Operation | Method | Endpoint |
+|---|---|---|
+| Get all employees | GET | `/employees` |
+| Get employee | GET | `/employees/:id` |
+| Add employee | POST | `/employees` |
+| Update employee | PUT | `/employees/:id` |
+| Delete employee | DELETE | `/employees/:id` |
+
+## 📁 Project Structure
+
+```text
+employee-management-dashboard/
+│
+├── public/
+│
+├── screenshots/
+│   ├── dashboard.png
+│   ├── employees.png
+│   ├── employee-details.png
+│   └── add-employee.png
+│
+├── src/
+│   ├── components/
+│   ├── data/
+│   ├── pages/
+│   ├── services/
+│   ├── types/
+│   ├── App.tsx
+│   ├── App.css
+│   └── main.tsx
+│
+├── db.json
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
