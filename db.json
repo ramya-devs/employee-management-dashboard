@@ -19,7 +19,7 @@
       "department": "HR",
       "position": "HR Executive",
       "joiningDate": "2025-08-15",
-      "salary": 380000,
+      "salary": 400000,
       "status": "Active"
     },
     {
@@ -29,8 +29,8 @@
       "phone": "9876543212",
       "department": "Finance",
       "position": "Financial Analyst",
-      "joiningDate": "2024-12-20",
-      "salary": 420000,
+      "joiningDate": "2025-07-20",
+      "salary": 500000,
       "status": "Inactive"
     },
     {
@@ -40,8 +40,8 @@
       "phone": "9876543213",
       "department": "Engineering",
       "position": "Frontend Developer",
-      "joiningDate": "2026-01-12",
-      "salary": 500000,
+      "joiningDate": "2025-09-05",
+      "salary": 480000,
       "status": "Active"
     },
     {
@@ -51,7 +51,7 @@
       "phone": "9876543214",
       "department": "Marketing",
       "position": "Marketing Executive",
-      "joiningDate": "2025-11-05",
+      "joiningDate": "2025-10-12",
       "salary": 350000,
       "status": "Active"
     }
