@@ -1,0 +1,59 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Arun Kumar",
+      "email": "arun@example.com",
+      "phone": "9876543210",
+      "department": "Engineering",
+      "position": "Software Developer",
+      "joiningDate": "2025-06-10",
+      "salary": 450000,
+      "status": "Active"
+    },
+    {
+      "id": 2,
+      "name": "Priya Sharma",
+      "email": "priya@example.com",
+      "phone": "9876543211",
+      "department": "HR",
+      "position": "HR Executive",
+      "joiningDate": "2025-08-15",
+      "salary": 380000,
+      "status": "Active"
+    },
+    {
+      "id": 3,
+      "name": "Rahul Singh",
+      "email": "rahul@example.com",
+      "phone": "9876543212",
+      "department": "Finance",
+      "position": "Financial Analyst",
+      "joiningDate": "2024-12-20",
+      "salary": 420000,
+      "status": "Inactive"
+    },
+    {
+      "id": 4,
+      "name": "Sneha Patel",
+      "email": "sneha@example.com",
+      "phone": "9876543213",
+      "department": "Engineering",
+      "position": "Frontend Developer",
+      "joiningDate": "2026-01-12",
+      "salary": 500000,
+      "status": "Active"
+    },
+    {
+      "id": 5,
+      "name": "Vikram Raj",
+      "email": "vikram@example.com",
+      "phone": "9876543214",
+      "department": "Marketing",
+      "position": "Marketing Executive",
+      "joiningDate": "2025-11-05",
+      "salary": 350000,
+      "status": "Active"
+    }
+  ]
+}
